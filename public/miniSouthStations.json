@@ -1,0 +1,23 @@
+[
+    {
+        "stop_id": 70012,
+        "stop_code": 70012,
+        "stop_name": "San Francisco Caltrain",
+        "stop_lat": 37.77639,
+        "stop_lon": -122.394992
+    },
+    {
+        "stop_id": 70062,
+        "stop_code": 70062,
+        "stop_name": "Millbrae Caltrain",
+        "stop_lat": 37.599797,
+        "stop_lon": -122.386832
+    },
+    {
+        "stop_id": 70142,
+        "stop_code": 70142,
+        "stop_name": "Redwood City Caltrain",
+        "stop_lat": 37.486101,
+        "stop_lon": -122.232
+    }
+]

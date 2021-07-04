@@ -1,0 +1,4188 @@
+[
+    {
+      "trip_id": 102,
+      "arrival_time": "04:51:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "04:56:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:01:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:08:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:12:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:16:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:21:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:25:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:28:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:32:00",
+      "stop_id": 70111,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:35:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:39:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:43:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:49:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:53:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "05:56:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "06:01:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "06:05:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 18
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "06:10:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 19
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "06:14:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 20
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "06:20:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 21
+    },
+    {
+      "trip_id": 102,
+      "arrival_time": "06:27:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 22
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:09:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:14:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:20:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:26:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:30:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:41:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:44:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:48:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:51:00",
+      "stop_id": 70111,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "20:56:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:00:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:05:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:13:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:17:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:20:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:25:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:30:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 18
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:35:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 19
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:39:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 20
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:45:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 21
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:53:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 22
+    },
+    {
+      "trip_id": 190,
+      "arrival_time": "21:58:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 23
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:09:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:14:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:20:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:26:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:30:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:43:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:47:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:51:00",
+      "stop_id": 70111,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:55:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "21:59:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:05:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:12:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:16:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:20:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:24:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:28:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 18
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:33:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 19
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:38:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 20
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:44:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 21
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:52:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 22
+    },
+    {
+      "trip_id": 192,
+      "arrival_time": "22:57:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 23
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:09:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:14:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:20:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:26:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:30:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:43:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:47:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:51:00",
+      "stop_id": 70111,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:55:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "22:59:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:05:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:12:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:16:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:20:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:24:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:28:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 18
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:33:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 19
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:38:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 20
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:44:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 21
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:52:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 22
+    },
+    {
+      "trip_id": 194,
+      "arrival_time": "23:57:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 23
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:09:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:14:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:20:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:26:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:30:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:43:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:47:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:50:00",
+      "stop_id": 70111,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:54:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "23:57:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:01:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:07:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:11:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:14:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:19:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:23:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 18
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:28:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 19
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:32:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 20
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:38:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 21
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:46:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 22
+    },
+    {
+      "trip_id": 196,
+      "arrival_time": "24:51:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 23
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:03:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:08:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:13:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:20:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:24:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:28:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:33:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:36:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:40:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:43:00",
+      "stop_id": 70111,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:47:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:50:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "24:54:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:00:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:04:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:07:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:12:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:16:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 18
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:21:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 19
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:25:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 20
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:31:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 21
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:39:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 22
+    },
+    {
+      "trip_id": 198,
+      "arrival_time": "25:44:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 23
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "05:38:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "05:47:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "05:54:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "05:59:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:05:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:10:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:17:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:23:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:27:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:33:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:37:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:43:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:50:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 206,
+      "arrival_time": "06:57:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "06:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "07:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "07:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "07:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "07:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "07:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "07:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "07:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 210,
+      "arrival_time": "07:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "06:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "06:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "07:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "08:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "08:03:00",
+      "stop_id": 70252,
+      "stop_name": "College Park",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 214,
+      "arrival_time": "08:09:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "07:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "08:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "08:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "08:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "08:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "08:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "08:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "08:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 218,
+      "arrival_time": "08:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "07:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "07:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "08:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "09:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 222,
+      "arrival_time": "09:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "08:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "09:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "09:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "09:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "09:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "09:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "09:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "09:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 226,
+      "arrival_time": "09:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "08:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "08:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "09:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "10:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 230,
+      "arrival_time": "10:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "09:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "10:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "10:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "10:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "10:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "10:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "10:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "10:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 232,
+      "arrival_time": "10:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "09:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "09:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "10:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "11:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 234,
+      "arrival_time": "11:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "10:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "11:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "11:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "11:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "11:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "11:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "11:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "11:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 236,
+      "arrival_time": "11:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "10:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "10:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "11:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "12:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 238,
+      "arrival_time": "12:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "11:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "12:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "12:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "12:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "12:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "12:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "12:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "12:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 240,
+      "arrival_time": "12:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "11:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "11:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "12:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "13:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 242,
+      "arrival_time": "13:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "12:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "13:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "13:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "13:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "13:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "13:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "13:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "13:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 244,
+      "arrival_time": "13:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "12:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "12:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "13:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "14:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 246,
+      "arrival_time": "14:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "13:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "14:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "14:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "14:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "14:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "14:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "14:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "14:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 248,
+      "arrival_time": "14:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "13:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "13:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "14:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "15:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 250,
+      "arrival_time": "15:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "14:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "15:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "15:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "15:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "15:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "15:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "15:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "15:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 252,
+      "arrival_time": "15:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "14:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "14:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "15:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "16:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 254,
+      "arrival_time": "16:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "15:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "16:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "16:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "16:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "16:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "16:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "16:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "16:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 256,
+      "arrival_time": "16:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "15:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "15:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "16:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "17:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "17:03:00",
+      "stop_id": 70252,
+      "stop_name": "College Park",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "17:09:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "17:15:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "17:22:00",
+      "stop_id": 70282,
+      "stop_name": "Capitol",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "17:28:00",
+      "stop_id": 70292,
+      "stop_name": "Blossom Hill",
+      "stop_sequence": 18
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "17:41:00",
+      "stop_id": 70302,
+      "stop_name": "Morgan Hill",
+      "stop_sequence": 19
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "17:47:00",
+      "stop_id": 70312,
+      "stop_name": "San Martin",
+      "stop_sequence": 20
+    },
+    {
+      "trip_id": 260,
+      "arrival_time": "18:00:00",
+      "stop_id": 70322,
+      "stop_name": "Gilroy",
+      "stop_sequence": 21
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "16:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "17:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "17:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "17:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "17:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "17:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "17:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "17:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 264,
+      "arrival_time": "17:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "16:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "16:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "17:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "18:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 268,
+      "arrival_time": "18:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "17:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:42:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:49:00",
+      "stop_id": 70282,
+      "stop_name": "Capitol",
+      "stop_sequence": 18
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "18:55:00",
+      "stop_id": 70292,
+      "stop_name": "Blossom Hill",
+      "stop_sequence": 19
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "19:08:00",
+      "stop_id": 70302,
+      "stop_name": "Morgan Hill",
+      "stop_sequence": 20
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "19:14:00",
+      "stop_id": 70312,
+      "stop_name": "San Martin",
+      "stop_sequence": 21
+    },
+    {
+      "trip_id": 272,
+      "arrival_time": "19:27:00",
+      "stop_id": 70322,
+      "stop_name": "Gilroy",
+      "stop_sequence": 22
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "17:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "17:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "18:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "19:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 276,
+      "arrival_time": "19:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "18:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "19:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "19:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "19:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "19:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "19:22:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "19:27:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "19:36:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 280,
+      "arrival_time": "19:41:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "18:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "18:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "19:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "20:00:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 284,
+      "arrival_time": "20:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:14:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:19:00",
+      "stop_id": 70022,
+      "stop_name": "22nd Street Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:28:00",
+      "stop_id": 70042,
+      "stop_name": "South San Francisco Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:35:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:40:00",
+      "stop_id": 70082,
+      "stop_name": "Burlingame Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:46:00",
+      "stop_id": 70102,
+      "stop_name": "Hayward Park Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:48:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:51:00",
+      "stop_id": 70122,
+      "stop_name": "Belmont Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "19:55:00",
+      "stop_id": 70132,
+      "stop_name": "San Carlos Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "20:00:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "20:07:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "20:11:00",
+      "stop_id": 70192,
+      "stop_name": "California Ave Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "20:17:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "20:23:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 14
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "20:28:00",
+      "stop_id": 70232,
+      "stop_name": "Lawrence Caltrain",
+      "stop_sequence": 15
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "20:41:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 16
+    },
+    {
+      "trip_id": 286,
+      "arrival_time": "20:46:00",
+      "stop_id": 70272,
+      "stop_name": "Tamien",
+      "stop_sequence": 17
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "19:44:00",
+      "stop_id": 70012,
+      "stop_name": "San Francisco Caltrain",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "19:53:00",
+      "stop_id": 70032,
+      "stop_name": "Bayshore Caltrain",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:00:00",
+      "stop_id": 70052,
+      "stop_name": "San Bruno Caltrain",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:05:00",
+      "stop_id": 70062,
+      "stop_name": "Millbrae Caltrain",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:12:00",
+      "stop_id": 70092,
+      "stop_name": "San Mateo Caltrain",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:17:00",
+      "stop_id": 70112,
+      "stop_name": "Hillsdale Caltrain",
+      "stop_sequence": 6
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:26:00",
+      "stop_id": 70142,
+      "stop_name": "Redwood City Caltrain",
+      "stop_sequence": 7
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:33:00",
+      "stop_id": 70162,
+      "stop_name": "Menlo Park Caltrain",
+      "stop_sequence": 8
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:37:00",
+      "stop_id": 70172,
+      "stop_name": "Palo Alto Caltrain",
+      "stop_sequence": 9
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:42:00",
+      "stop_id": 70202,
+      "stop_name": "San Antonio Caltrain",
+      "stop_sequence": 10
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:46:00",
+      "stop_id": 70212,
+      "stop_name": "Mountain View Caltrain",
+      "stop_sequence": 11
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "20:52:00",
+      "stop_id": 70222,
+      "stop_name": "Sunnyvale Caltrain",
+      "stop_sequence": 12
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "21:01:00",
+      "stop_id": 70242,
+      "stop_name": "Santa Clara Caltrain",
+      "stop_sequence": 13
+    },
+    {
+      "trip_id": 288,
+      "arrival_time": "21:07:00",
+      "stop_id": 70262,
+      "stop_name": "San Jose Diridon",
+      "stop_sequence": 14
+    }
+   ]

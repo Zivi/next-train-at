@@ -1,62 +1,124 @@
 import Head from 'next/head'
+import React, { useEffect, useState } from 'react';
+import { isBefore, set } from 'date-fns'
 
 export default function Home() {
+  const [origin, setOrigin] = useState({
+    name: null,
+    index: null
+  });
+
+  const [destination, setDestination] = useState({
+    name: null,
+    index: null
+  });
+
+  const [route, setRoute] = useState({
+    trainNumber: null,
+    orignTime: null,
+    destinationTime: null
+  })
+
+  useEffect(() => {
+    if (origin.name && destination.name) {
+      displayRoute();
+    }
+  }, [origin, destination]);
+
+  function updateOrigin(event) {
+    setOrigin({
+      name: event.currentTarget.value,
+      index: event.currentTarget.selectedIndex
+    });
+  }
+
+  function updateDestination(event) {
+    setDestination({
+      name: event.currentTarget.value,
+      index: event.currentTarget.selectedIndex
+    });
+  }
+
+  function displayRoute() {
+    // if origin station > destination, search the north timetable
+    // if origin station < detination station search the south timetable
+    // On the timetable 
+    if (origin.index === destination.index) return;
+    if (origin.index > destination.index) {
+      // add conditional for the weekend after
+      fetch('./northTimetable.json')
+        .then(response => response.json())
+        .then(data => parseRoute(data));
+    } else {
+      fetch('./southTimetable.json')
+        .then(response => response.json())
+        .then(data => parseRoute(data));
+    }
+  }
+
+  function parseRoute(data) {
+    // let startIndex;
+    // let endIndex;
+    const currentTime = new Date();
+    let newRouteDetails = {};
+    for (let i = 0; i < data.length; i += 1) {
+      // if the station names match
+      // if the arrival time is after now
+      // call setRoute with the trip_id, arrival_time for departing station
+      // continue the loop to find the destination station
+      // will need to create a new date object where date is today and time is the arrival time
+      // 06:10:00 data[i].arrival_time
+      let departureTime = set(currentTime, {
+        hours: parseInt(data[i].arrival_time[0] + data[i].arrival_time[1]),
+        minutes: parseInt(data[i].arrival_time[3] + data[i].arrival_time[4]),
+        seconds: parseInt(data[i].arrival_time[6] + data[i].arrival_time[7])
+      });
+      if (data[i].stop_name === origin.name && departureTime > currentTime) {
+        newRouteDetails = {
+          trainNumber: data[i].trip_id,
+          orignTime: data[i].arrival_time
+        }
+      } else if (data[i].stop_name === destination.name && departureTime > currentTime) {
+        newRouteDetails = { ...newRouteDetails, destinationTime: data[i].arrival_time };
+        break;
+      }
+    }
+    setRoute({...route, ...newRouteDetails});
+  }
+
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Timetables</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Find your route
         </h1>
+        <label>Choose origin:
+        <select name="start" onChange={updateOrigin}>
+            <option value="San Francisco Caltrain">SF 4th and King</option>
+            <option value="Millbrae Caltrain">Millbrae</option>
+            <option value="Redwood City Caltrain">Redwood City</option>
+          </select>
+        </label>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <label>Choose destination:
+        <select name="destination" onChange={updateDestination}>
+            <option value="San Francisco Caltrain">SF 4th and King</option>
+            <option value="Millbrae Caltrain">Millbrae</option>
+            <option value="Redwood City Caltrain">Redwood City</option>
+          </select>
+        </label>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <div>trainNumber: {route.trainNumber}</div>
+        <div>departing {origin.name} at {route.orignTime}</div>
+        <div>arriving at {destination.name} at {route.destinationTime}</div>
       </main>
-
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
+        <div>Made with by 🚂 Zivi Weinstock</div>
       </footer>
 
       <style jsx>{`
