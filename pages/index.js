@@ -90,17 +90,71 @@ export default function Home() {
         <select name="start" onChange={updateOrigin}>
             <option value="">--Select Departing Station--</option>
             <option value="San Francisco Caltrain">SF 4th and King</option>
+            <option value="22nd Street Caltrain">SF 22nd</option>
+            <option value="Bayshore Caltrain">Bayshore</option>
+            <option value="South San Francisco Caltrain">South SF</option>
+            <option value="San Bruno Caltrain">San Bruno</option>
             <option value="Millbrae Caltrain">Millbrae</option>
+            <option value="Broadway Caltrain">Broadway</option>
+            <option value="Burlingame Caltrain">Burlingame</option>
+            <option value="San Mateo Caltrain">San Mateo</option>
+            <option value="Hayward Park Caltrain">Hayward Park</option>
+            <option value="Hillsdale Caltrain">Hillsdale</option>
+            <option value="Belmont Caltrain">Belmont</option>
+            <option value="San Carlos Caltrain">San Carlos</option>
             <option value="Redwood City Caltrain">Redwood City</option>
+            <option value="Menlo Park Caltrain">Menlo Park</option>
+            <option value="Palo Alto Caltrain">Palo Alto</option>
+            <option value="California Ave Calrain">California Ave</option>
+            <option value="San Antonio Caltrain">San Antonio</option>
+            <option value="Mountain View Caltrain">Mountain View</option>
+            <option value="Sunnyvale Caltrain">Sunnyvale</option>
+            <option value="Lawrence Caltrain">Lawrence</option>
+            <option value="Santa Clara Caltrain">Santa Clara</option>
+            <option value="College Park Caltrain">College Park</option>
+            <option value="San Jose Diridon Caltrain">San Jose Diridon</option>
+            <option value="Tramien Caltrain">Tamien</option>
+            <option value="Capitol Caltrain">Capitol</option>
+            <option value="Blossom Hill Caltrain">Blossom Hill</option>
+            <option value="Morgan Hill Caltrain">Morgan Hill</option>
+            <option value="San Martin Calrain">San Martin</option>
+            <option value="Gilroy Caltrain">Gilroy</option>
           </select>
         </label>
 
         <label>Choose destination:
-        <select name="destination" onChange={updateDestination}>
-        <option value="">--Select Arriving Station--</option>
+          <select name="destination" onChange={updateDestination}>
+            <option value="">--Select Arriving Station--</option>
             <option value="San Francisco Caltrain">SF 4th and King</option>
+            <option value="22nd Street Caltrain">SF 22nd</option>
+            <option value="Bayshore Caltrain">Bayshore</option>
+            <option value="South San Francisco Caltrain">South SF</option>
+            <option value="San Bruno Caltrain">San Bruno</option>
             <option value="Millbrae Caltrain">Millbrae</option>
+            <option value="Broadway Caltrain">Broadway</option>
+            <option value="Burlingame Caltrain">Burlingame</option>
+            <option value="San Mateo Caltrain">San Mateo</option>
+            <option value="Hayward Park Caltrain">Hayward Park</option>
+            <option value="Hillsdale Caltrain">Hillsdale</option>
+            <option value="Belmont Caltrain">Belmont</option>
+            <option value="San Carlos Caltrain">San Carlos</option>
             <option value="Redwood City Caltrain">Redwood City</option>
+            <option value="Menlo Park Caltrain">Menlo Park</option>
+            <option value="Palo Alto Caltrain">Palo Alto</option>
+            <option value="California Ave Calrain">California Ave</option>
+            <option value="San Antonio Caltrain">San Antonio</option>
+            <option value="Mountain View Caltrain">Mountain View</option>
+            <option value="Sunnyvale Caltrain">Sunnyvale</option>
+            <option value="Lawrence Caltrain">Lawrence</option>
+            <option value="Santa Clara Caltrain">Santa Clara</option>
+            <option value="College Park Caltrain">College Park</option>
+            <option value="San Jose Diridon Caltrain">San Jose Diridon</option>
+            <option value="Tramien Caltrain">Tamien</option>
+            <option value="Capitol Caltrain">Capitol</option>
+            <option value="Blossom Hill Caltrain">Blossom Hill</option>
+            <option value="Morgan Hill Caltrain">Morgan Hill</option>
+            <option value="San Martin Calrain">San Martin</option>
+            <option value="Gilroy Caltrain">Gilroy</option>
           </select>
         </label>
 
