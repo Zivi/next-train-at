@@ -3,59 +3,54 @@ import React, { useEffect, useState } from 'react';
 import { set } from 'date-fns'
 
 export default function Home() {
-  const [origin, setOrigin] = useState({
-    name: null,
-    index: null
-  });
+  const [origin, setOrigin] = useState(null);
 
-  const [destination, setDestination] = useState({
-    name: null,
-    index: null
-  });
+  const [destination, setDestination] = useState(null);
 
-  const [route, setRoute] = useState({
-    trainNumber: null,
-    orignTime: null,
-    destinationTime: null
-  })
+  const [route, setRoute] = useState(null);
 
   useEffect(() => {
-    if (origin.name && destination.name) {
+    if (origin && destination) {
       displayRoute();
     }
   }, [origin, destination]);
 
-  function updateOrigin(event) {
-    setOrigin({
-      name: event.currentTarget.value,
-      index: event.currentTarget.selectedIndex
-    });
+  function updateOrigin({ currentTarget: { value: name, selectedIndex: index } }) {
+    setOrigin({ name, index });
   }
 
-  function updateDestination(event) {
-    setDestination({
-      name: event.currentTarget.value,
-      index: event.currentTarget.selectedIndex
-    });
+  function updateDestination({ currentTarget: { value: name, selectedIndex: index } }) {
+    setDestination({ name, index });
   }
 
-  function displayRoute() {
-    if (origin.index === destination.index) return;
-    if (origin.index > destination.index) {
-      // add conditional for the weekend after
-      fetch('./northTimetable.json')
-        .then(response => response.json())
-        .then(data => parseRoute(data));
-    } else {
-      fetch('./southTimetable.json')
-        .then(response => response.json())
-        .then(data => parseRoute(data));
+  let northboundTimetable = null;
+  let southboundTimetable = null;
+  async function displayRoute() {
+    if (origin.index === destination.index) {
+      setRoute({...route, trainNumber: null});
+      return;
     }
+    if (origin.index > destination.index) {
+      // Northbound
+      if (!northboundTimetable) {
+        northboundTimetable = await fetch('./northTimetable.json')
+          .then(response => response.json());
+      }
+      parseRoute(northboundTimetable);
+      return;
+    }
+    // Soutbound
+    if (!southboundTimetable) {
+      southboundTimetable = await fetch('./southTimetable.json')
+        .then(response => response.json());
+    }
+    parseRoute(southboundTimetable);
+
   }
 
   function parseRoute(data) {
     const currentTime = new Date();
-    let newRouteDetails = {};
+    let newRoute = {};
     for (let i = 0; i < data.length; i += 1) {
       let departureTime = set(currentTime, {
         hours: parseInt(data[i].arrival_time[0] + data[i].arrival_time[1]),
@@ -63,16 +58,16 @@ export default function Home() {
         seconds: parseInt(data[i].arrival_time[6] + data[i].arrival_time[7])
       });
       if (data[i].stop_name === origin.name && departureTime > currentTime) {
-        newRouteDetails = {
+        newRoute = {
           trainNumber: data[i].trip_id,
           orignTime: data[i].arrival_time
         }
       } else if (data[i].stop_name === destination.name && departureTime > currentTime) {
-        newRouteDetails = { ...newRouteDetails, destinationTime: data[i].arrival_time };
+        newRoute = { ...newRoute, destinationTime: data[i].arrival_time };
         break;
       }
     }
-    setRoute({...route, ...newRouteDetails});
+    setRoute(newRoute);
   }
 
   return (
@@ -87,8 +82,8 @@ export default function Home() {
           Find your route
         </h1>
         <label>Choose origin:
-        <select name="start" onChange={updateOrigin}>
-            <option value="">--Select Departing Station--</option>
+          <select name="start" onChange={updateOrigin} value={origin ? origin.name : ''}>
+            <option value="" disabled>--Select Departing Station--</option>
             <option value="San Francisco Caltrain">SF 4th and King</option>
             <option value="22nd Street Caltrain">SF 22nd</option>
             <option value="Bayshore Caltrain">Bayshore</option>
@@ -123,8 +118,8 @@ export default function Home() {
         </label>
 
         <label>Choose destination:
-          <select name="destination" onChange={updateDestination}>
-            <option value="">--Select Arriving Station--</option>
+          <select name="destination" onChange={updateDestination} value={destination ? destination.name : ''}>
+            <option value="" disabled>--Select Arriving Station--</option>
             <option value="San Francisco Caltrain">SF 4th and King</option>
             <option value="22nd Street Caltrain">SF 22nd</option>
             <option value="Bayshore Caltrain">Bayshore</option>
@@ -158,7 +153,7 @@ export default function Home() {
           </select>
         </label>
 
-        {route.trainNumber && origin.name && destination.name &&
+        {route && route.trainNumber &&
           <>
             <div>trainNumber: {route.trainNumber}</div>
             <div>departing {origin.name} at {route.orignTime}</div>
