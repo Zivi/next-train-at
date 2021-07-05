@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import { isBefore, set } from 'date-fns'
+import { set } from 'date-fns'
 
 export default function Home() {
   const [origin, setOrigin] = useState({
@@ -40,9 +40,6 @@ export default function Home() {
   }
 
   function displayRoute() {
-    // if origin station > destination, search the north timetable
-    // if origin station < detination station search the south timetable
-    // On the timetable 
     if (origin.index === destination.index) return;
     if (origin.index > destination.index) {
       // add conditional for the weekend after
@@ -57,17 +54,9 @@ export default function Home() {
   }
 
   function parseRoute(data) {
-    // let startIndex;
-    // let endIndex;
     const currentTime = new Date();
     let newRouteDetails = {};
     for (let i = 0; i < data.length; i += 1) {
-      // if the station names match
-      // if the arrival time is after now
-      // call setRoute with the trip_id, arrival_time for departing station
-      // continue the loop to find the destination station
-      // will need to create a new date object where date is today and time is the arrival time
-      // 06:10:00 data[i].arrival_time
       let departureTime = set(currentTime, {
         hours: parseInt(data[i].arrival_time[0] + data[i].arrival_time[1]),
         minutes: parseInt(data[i].arrival_time[3] + data[i].arrival_time[4]),
@@ -99,6 +88,7 @@ export default function Home() {
         </h1>
         <label>Choose origin:
         <select name="start" onChange={updateOrigin}>
+            <option value="">--Select Departing Station--</option>
             <option value="San Francisco Caltrain">SF 4th and King</option>
             <option value="Millbrae Caltrain">Millbrae</option>
             <option value="Redwood City Caltrain">Redwood City</option>
@@ -107,15 +97,20 @@ export default function Home() {
 
         <label>Choose destination:
         <select name="destination" onChange={updateDestination}>
+        <option value="">--Select Arriving Station--</option>
             <option value="San Francisco Caltrain">SF 4th and King</option>
             <option value="Millbrae Caltrain">Millbrae</option>
             <option value="Redwood City Caltrain">Redwood City</option>
           </select>
         </label>
 
-        <div>trainNumber: {route.trainNumber}</div>
-        <div>departing {origin.name} at {route.orignTime}</div>
-        <div>arriving at {destination.name} at {route.destinationTime}</div>
+        {route.trainNumber && origin.name && destination.name &&
+          <>
+            <div>trainNumber: {route.trainNumber}</div>
+            <div>departing {origin.name} at {route.orignTime}</div>
+            <div>arriving at {destination.name} at {route.destinationTime}</div>
+          </>
+        }
       </main>
       <footer>
         <div>Made with by 🚂 Zivi Weinstock</div>

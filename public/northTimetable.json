@@ -87,7 +87,7 @@
       "trip_id": 101,
       "arrival_time": "05:22:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 13
     },
     {
@@ -241,7 +241,7 @@
       "trip_id": 193,
       "arrival_time": "20:56:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 13
     },
     {
@@ -402,7 +402,7 @@
       "trip_id": 195,
       "arrival_time": "21:37:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 14
     },
     {
@@ -556,7 +556,7 @@
       "trip_id": 197,
       "arrival_time": "22:37:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 14
     },
     {
@@ -717,7 +717,7 @@
       "trip_id": 199,
       "arrival_time": "23:53:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 14
     },
     {
@@ -857,7 +857,7 @@
       "trip_id": 203,
       "arrival_time": "05:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -962,7 +962,7 @@
       "trip_id": 205,
       "arrival_time": "06:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -1074,7 +1074,7 @@
       "trip_id": 209,
       "arrival_time": "06:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -1221,7 +1221,7 @@
       "trip_id": 213,
       "arrival_time": "07:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 15
     },
     {
@@ -1368,7 +1368,7 @@
       "trip_id": 217,
       "arrival_time": "07:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 16
     },
     {
@@ -1473,7 +1473,7 @@
       "trip_id": 221,
       "arrival_time": "08:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -1592,7 +1592,7 @@
       "trip_id": 225,
       "arrival_time": "08:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 12
     },
     {
@@ -1697,7 +1697,7 @@
       "trip_id": 229,
       "arrival_time": "09:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -1795,7 +1795,7 @@
       "trip_id": 237,
       "arrival_time": "10:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -1907,7 +1907,7 @@
       "trip_id": 239,
       "arrival_time": "10:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -2012,7 +2012,7 @@
       "trip_id": 241,
       "arrival_time": "11:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -2124,7 +2124,7 @@
       "trip_id": 243,
       "arrival_time": "11:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -2229,7 +2229,7 @@
       "trip_id": 245,
       "arrival_time": "12:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -2341,7 +2341,7 @@
       "trip_id": 247,
       "arrival_time": "12:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -2446,7 +2446,7 @@
       "trip_id": 249,
       "arrival_time": "13:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -2558,7 +2558,7 @@
       "trip_id": 251,
       "arrival_time": "13:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -2663,7 +2663,7 @@
       "trip_id": 253,
       "arrival_time": "14:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -2775,7 +2775,7 @@
       "trip_id": 255,
       "arrival_time": "14:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -2880,7 +2880,7 @@
       "trip_id": 257,
       "arrival_time": "15:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 9
     },
     {
@@ -2992,7 +2992,7 @@
       "trip_id": 259,
       "arrival_time": "15:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -3104,7 +3104,7 @@
       "trip_id": 263,
       "arrival_time": "16:23:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 10
     },
     {
@@ -3216,7 +3216,7 @@
       "trip_id": 267,
       "arrival_time": "16:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
@@ -3335,7 +3335,7 @@
       "trip_id": 275,
       "arrival_time": "17:51:00",
       "stop_id": 70111,
-      "stop_name": "San Francisco Caltrain",
+      "stop_name": "Hillsdale Caltrain",
       "stop_sequence": 11
     },
     {
