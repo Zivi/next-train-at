@@ -62,11 +62,13 @@ export default function Home() {
           trainNumber: data[i].trip_id,
           orignTime: data[i].arrival_time
         }
-      } else if (data[i].stop_name === destination.name && departureTime > currentTime) {
+        // check if this train number has the destination as well
+      } else if (data[i].stop_name === destination.name && departureTime > currentTime && data[i].trip_id === newRoute.trainNumber) {
         newRoute = { ...newRoute, destinationTime: data[i].arrival_time };
         break;
       }
     }
+   // debugger;
     setRoute(newRoute);
   }
 
@@ -153,11 +155,16 @@ export default function Home() {
           </select>
         </label>
 
-        {route && route.trainNumber &&
+        {route && route.trainNumber && route.orignTime && route.destinationTime &&
           <>
             <div>trainNumber: {route.trainNumber}</div>
             <div>departing {origin.name} at {route.orignTime}</div>
             <div>arriving at {destination.name} at {route.destinationTime}</div>
+          </>
+        }
+        {route && (!route.trainNumber || !route.destinationTime || !route.orignTime) &&
+          <>
+            <div>No trains match your request</div>
           </>
         }
       </main>
