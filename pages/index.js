@@ -4,9 +4,7 @@ import { set } from 'date-fns'
 
 export default function Home() {
   const [origin, setOrigin] = useState(null);
-
   const [destination, setDestination] = useState(null);
-
   const [route, setRoute] = useState(null);
 
   useEffect(() => {
@@ -27,7 +25,7 @@ export default function Home() {
   let southboundTimetable = null;
   async function displayRoute() {
     if (origin.index === destination.index) {
-      setRoute({...route, trainNumber: null});
+      setRoute({ ...route, trainNumber: null });
       return;
     }
     if (origin.index > destination.index) {
@@ -45,7 +43,6 @@ export default function Home() {
         .then(response => response.json());
     }
     parseRoute(southboundTimetable);
-
   }
 
   function parseRoute(data) {
@@ -62,14 +59,17 @@ export default function Home() {
           trainNumber: data[i].trip_id,
           orignTime: data[i].arrival_time
         }
-        // check if this train number has the destination as well
       } else if (data[i].stop_name === destination.name && departureTime > currentTime && data[i].trip_id === newRoute.trainNumber) {
         newRoute = { ...newRoute, destinationTime: data[i].arrival_time };
         break;
       }
     }
-   // debugger;
     setRoute(newRoute);
+  }
+
+  function changeDirection() {
+    setOrigin(destination);
+    setDestination(origin);
   }
 
   return (
@@ -154,6 +154,7 @@ export default function Home() {
             <option value="Gilroy Caltrain">Gilroy</option>
           </select>
         </label>
+        {origin && destination && <button onClick={changeDirection}>Switch Direction</button>}
 
         {route && route.trainNumber && route.orignTime && route.destinationTime &&
           <>
