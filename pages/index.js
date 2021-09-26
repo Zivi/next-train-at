@@ -20,47 +20,84 @@ export default function Home() {
   function updateDestination({ currentTarget: { value: name, selectedIndex: index } }) {
     setDestination({ name, index });
   }
+  // todo: sort out if weekday or weekend
 
-  let northboundTimetable = null;
-  let southboundTimetable = null;
+  let stopTimes = null;
   async function displayRoute() {
+    if (!stopTimes) {
+      stopTimes = await fetch('./stopTimes.json')
+        .then(response => response.json());
+    }
+
     if (origin.index === destination.index) {
       setRoute({ ...route, trainNumber: null });
       return;
     }
     if (origin.index > destination.index) {
       // Northbound
-      if (!northboundTimetable) {
-        northboundTimetable = await fetch('./northTimetable.json')
-          .then(response => response.json());
-      }
-      parseRoute(northboundTimetable);
+      let originStationId = null;
+      let destinationStationId = null;
+      let northBoundStopTimes = null;
+      northBoundStopTimes = stopTimes.filter((stopTime) => {
+        return stopTime.trip_id % 2 === 1 && String(stopTime.trip_id)[0] !== 2;
+      })
+
+      let northBoundStations = await fetch('./northStations.json')
+        .then(response => response.json());
+
+      northBoundStations.forEach(station => {
+        if (origin.name === station.stop_name && station.stop_id % 2 === 1) {
+          originStationId = station.stop_id;
+        } else if (destination.name === station.stop_name && station.stop_id % 2 === 1) {
+          destinationStationId = station.stop_id;
+        }
+      })
+      parseRoute(northBoundStopTimes, originStationId, destinationStationId);
       return;
     }
-    // Soutbound
-    if (!southboundTimetable) {
-      southboundTimetable = await fetch('./southTimetable.json')
+    if (origin.index < destination.index) {
+      // Southbound
+      let originStationId = null;
+      let destinationStationId = null;
+      let southBoundStopTimes = null;
+      southBoundStopTimes = stopTimes.filter((stopTime) => {
+        return stopTime.trip_id % 2 === 0 && String(stopTime.trip_id)[0] !== 2;
+      })
+
+      let southBoundStations = await fetch('./southStations.json')
         .then(response => response.json());
+
+      southBoundStations.forEach(station => {
+        if (origin.name === station.stop_name && station.stop_id % 2 === 0) {
+          originStationId = station.stop_id;
+        } else if (destination.name === station.stop_name && station.stop_id % 2 === 0) {
+          destinationStationId = station.stop_id;
+        }
+      })
+      parseRoute(southBoundStopTimes, originStationId, destinationStationId);
+      return;
     }
-    parseRoute(southboundTimetable);
   }
 
-  function parseRoute(data) {
+  function parseRoute(stops, originStation, destinationStation) {
+
+    // fetch stops.json to find origin's stop id
     const currentTime = new Date();
     let newRoute = {};
-    for (let i = 0; i < data.length; i += 1) {
+
+    for (let i = 0; i < stops.length; i += 1) {
       let departureTime = set(currentTime, {
-        hours: parseInt(data[i].arrival_time[0] + data[i].arrival_time[1]),
-        minutes: parseInt(data[i].arrival_time[3] + data[i].arrival_time[4]),
-        seconds: parseInt(data[i].arrival_time[6] + data[i].arrival_time[7])
+        hours: parseInt(stops[i].arrival_time[0] + stops[i].arrival_time[1]),
+        minutes: parseInt(stops[i].arrival_time[3] + stops[i].arrival_time[4]),
+        seconds: parseInt(stops[i].arrival_time[6] + stops[i].arrival_time[7])
       });
-      if (data[i].stop_name === origin.name && departureTime > currentTime) {
+      if (stops[i].stop_id === originStation && departureTime > currentTime) {
         newRoute = {
-          trainNumber: data[i].trip_id,
-          orignTime: data[i].arrival_time
+          trainNumber: stops[i].trip_id,
+          orignTime: stops[i].arrival_time
         }
-      } else if (data[i].stop_name === destination.name && departureTime > currentTime && data[i].trip_id === newRoute.trainNumber) {
-        newRoute = { ...newRoute, destinationTime: data[i].arrival_time };
+      } else if (stops[i].stop_id === destinationStation && departureTime > currentTime && stops[i].trip_id === newRoute.trainNumber) {
+        newRoute = { ...newRoute, destinationTime: stops[i].arrival_time };
         break;
       }
     }
@@ -110,7 +147,7 @@ export default function Home() {
             <option value="Santa Clara Caltrain">Santa Clara</option>
             <option value="College Park Caltrain">College Park</option>
             <option value="San Jose Diridon Caltrain">San Jose Diridon</option>
-            <option value="Tramien Caltrain">Tamien</option>
+            <option value="Tamien Caltrain">Tamien</option>
             <option value="Capitol Caltrain">Capitol</option>
             <option value="Blossom Hill Caltrain">Blossom Hill</option>
             <option value="Morgan Hill Caltrain">Morgan Hill</option>
@@ -146,7 +183,7 @@ export default function Home() {
             <option value="Santa Clara Caltrain">Santa Clara</option>
             <option value="College Park Caltrain">College Park</option>
             <option value="San Jose Diridon Caltrain">San Jose Diridon</option>
-            <option value="Tramien Caltrain">Tamien</option>
+            <option value="Tamien Caltrain">Tamien</option>
             <option value="Capitol Caltrain">Capitol</option>
             <option value="Blossom Hill Caltrain">Blossom Hill</option>
             <option value="Morgan Hill Caltrain">Morgan Hill</option>
