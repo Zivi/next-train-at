@@ -1,6 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
-import { set } from 'date-fns'
+import { set } from 'date-fns';
+import { isWeekend } from 'date-fns';
 
 export default function Home() {
   const [origin, setOrigin] = useState(null);
@@ -20,7 +21,6 @@ export default function Home() {
   function updateDestination({ currentTarget: { value: name, selectedIndex: index } }) {
     setDestination({ name, index });
   }
-  // todo: sort out if weekday or weekend
 
   let stopTimes = null;
   async function displayRoute() {
@@ -33,13 +33,20 @@ export default function Home() {
       setRoute({ ...route, trainNumber: null });
       return;
     }
+
+    const isThisAWeekend = isWeekend(new Date());
+
     if (origin.index > destination.index) {
       // Northbound
       let originStationId = null;
       let destinationStationId = null;
       let northBoundStopTimes = null;
       northBoundStopTimes = stopTimes.filter((stopTime) => {
-        return stopTime.trip_id % 2 === 1 && String(stopTime.trip_id)[0] !== 2;
+        if (isThisAWeekend) {
+          return stopTime.trip_id % 2 === 1 && String(stopTime.trip_id)[0] === '2';
+        } else {
+          return stopTime.trip_id % 2 === 1 && String(stopTime.trip_id)[0] !== '2';
+        }
       })
 
       let northBoundStations = await fetch('./northStations.json')
@@ -61,7 +68,11 @@ export default function Home() {
       let destinationStationId = null;
       let southBoundStopTimes = null;
       southBoundStopTimes = stopTimes.filter((stopTime) => {
-        return stopTime.trip_id % 2 === 0 && String(stopTime.trip_id)[0] !== 2;
+        if (isThisAWeekend) {
+          return stopTime.trip_id % 2 === 0 && String(stopTime.trip_id)[0] === '2';
+        } else {
+          return stopTime.trip_id % 2 === 0 && String(stopTime.trip_id)[0] !== '2';
+        }
       })
 
       let southBoundStations = await fetch('./southStations.json')
@@ -80,8 +91,6 @@ export default function Home() {
   }
 
   function parseRoute(stops, originStation, destinationStation) {
-
-    // fetch stops.json to find origin's stop id
     const currentTime = new Date();
     let newRoute = {};
 
