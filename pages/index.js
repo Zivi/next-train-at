@@ -22,6 +22,12 @@ export default function Home() {
     setDestination({ name, index });
   }
 
+  function stopTimeToNum(stopTime) {
+    const hour = +stopTime.slice(0, 2);
+    const minute = +stopTime.slice(3, 5);
+    return hour * 60 + minute;
+  }
+
   let stopTimes = null;
   async function displayRoute() {
     if (!stopTimes) {
@@ -47,6 +53,8 @@ export default function Home() {
         } else {
           return stopTime.trip_id % 2 === 1 && String(stopTime.trip_id)[0] !== '2';
         }
+      }).sort((a, b) => {
+        return stopTimeToNum(a.arrival_time) - stopTimeToNum(b.arrival_time);
       })
 
       let northBoundStations = await fetch('./northStations.json')
@@ -73,6 +81,8 @@ export default function Home() {
         } else {
           return stopTime.trip_id % 2 === 0 && String(stopTime.trip_id)[0] !== '2';
         }
+      }).sort((a, b) => {
+        return stopTimeToNum(a.arrival_time) - stopTimeToNum(b.arrival_time);
       })
 
       let southBoundStations = await fetch('./southStations.json')
@@ -103,14 +113,20 @@ export default function Home() {
       if (stops[i].stop_id === originStation && departureTime > currentTime) {
         newRoute = {
           trainNumber: stops[i].trip_id,
-          orignTime: stops[i].arrival_time
+          originTime: stops[i].arrival_time
         }
-      } else if (stops[i].stop_id === destinationStation && departureTime > currentTime && stops[i].trip_id === newRoute.trainNumber) {
-        newRoute = { ...newRoute, destinationTime: stops[i].arrival_time };
-        break;
+
+        // loop to find matching destination
+        for (let j = i + 1; j < stops.length; j += 1) {
+          if (stops[j].stop_id === destinationStation && departureTime > currentTime && stops[j].trip_id === newRoute.trainNumber) {
+            newRoute = { ...newRoute, destinationTime: stops[j].arrival_time };
+            setRoute(newRoute);
+            break;
+          }
+        }
+        if (newRoute.destinationTime) break;
       }
     }
-    setRoute(newRoute);
   }
 
   function changeDirection() {
@@ -202,14 +218,14 @@ export default function Home() {
         </label>
         {origin && destination && <button onClick={changeDirection}>Switch Direction</button>}
 
-        {route && route.trainNumber && route.orignTime && route.destinationTime &&
+        {route && route.trainNumber && route.originTime && route.destinationTime &&
           <>
             <div>trainNumber: {route.trainNumber}</div>
-            <div>departing {origin.name} at {route.orignTime}</div>
+            <div>departing {origin.name} at {route.originTime}</div>
             <div>arriving at {destination.name} at {route.destinationTime}</div>
           </>
         }
-        {route && (!route.trainNumber || !route.destinationTime || !route.orignTime) &&
+        {route && (!route.trainNumber || !route.destinationTime || !route.originTime) &&
           <>
             <div>No trains match your request</div>
           </>
