@@ -3,10 +3,21 @@ import React, { useEffect, useState } from 'react';
 import { set } from 'date-fns';
 import { isWeekend } from 'date-fns';
 
+/*
+  Next items
+  2. CSS enhancements
+  3. Unit tests
+
+*/
+let stopsList = [];
+let originStationId = null;
+let destinationStationId = null;
+
 export default function Home() {
   const [origin, setOrigin] = useState(null);
   const [destination, setDestination] = useState(null);
   const [route, setRoute] = useState(null);
+  const [moreRoutesList, setMoreRoutesList] = useState([]);
 
   useEffect(() => {
     if (origin && destination) {
@@ -44,10 +55,7 @@ export default function Home() {
 
     if (origin.index > destination.index) {
       // Northbound
-      let originStationId = null;
-      let destinationStationId = null;
-      let northBoundStopTimes = null;
-      northBoundStopTimes = stopTimes.filter((stopTime) => {
+      stopsList = stopTimes.filter((stopTime) => {
         if (isThisAWeekend) {
           return stopTime.trip_id % 2 === 1 && String(stopTime.trip_id)[0] === '2';
         } else {
@@ -67,22 +75,19 @@ export default function Home() {
           destinationStationId = station.stop_id;
         }
       })
-      parseRoute(northBoundStopTimes, originStationId, destinationStationId);
+      parseRoute(stopsList, originStationId, destinationStationId);
       return;
     }
     if (origin.index < destination.index) {
       // Southbound
-      let originStationId = null;
-      let destinationStationId = null;
-      let southBoundStopTimes = null;
-      southBoundStopTimes = stopTimes.filter((stopTime) => {
+      stopsList = stopTimes.filter((stopTime) => {
         if (isThisAWeekend) {
           return stopTime.trip_id % 2 === 0 && String(stopTime.trip_id)[0] === '2';
         } else {
           return stopTime.trip_id % 2 === 0 && String(stopTime.trip_id)[0] !== '2';
         }
       }).sort((a, b) => {
-        return stopTimeToNum(a.arrival_time) - stopTimeToNum(b.arrival_time);
+        return a.trip_id - b.trip_id || stopTimeToNum(a.arrival_time) - stopTimeToNum(b.arrival_time);
       })
 
       let southBoundStations = await fetch('./southStations.json')
@@ -95,7 +100,7 @@ export default function Home() {
           destinationStationId = station.stop_id;
         }
       })
-      parseRoute(southBoundStopTimes, originStationId, destinationStationId);
+      parseRoute(stopsList, originStationId, destinationStationId);
       return;
     }
   }
@@ -132,6 +137,39 @@ export default function Home() {
   function changeDirection() {
     setOrigin(destination);
     setDestination(origin);
+    setMoreRoutesList([]);
+  }
+
+  function handleShowMore() {
+    const currentTime = new Date();
+    const routeDepartureTime = set(currentTime, {
+      hours: parseInt(route.originTime[0] + route.originTime[1]),
+      minutes: parseInt(route.originTime[3] + route.originTime[4]),
+      seconds: parseInt(route.originTime[6] + route.originTime[7])
+    })
+
+    for (let i = 0; i < stopsList.length; i += 1) {
+      let departureTime = set(currentTime, {
+        hours: parseInt(stopsList[i].arrival_time[0] + stopsList[i].arrival_time[1]),
+        minutes: parseInt(stopsList[i].arrival_time[3] + stopsList[i].arrival_time[4]),
+        seconds: parseInt(stopsList[i].arrival_time[6] + stopsList[i].arrival_time[7])
+      });
+      
+      if (stopsList[i].stop_id === originStationId && departureTime > routeDepartureTime) {
+        const newRoute = {
+          trainNumber: stopsList[i].trip_id,
+          originTime: stopsList[i].arrival_time,
+        };
+        
+        for (let j = i + 1; j < stopsList.length; j +=1) {
+          if (stopsList[j].stop_id === destinationStationId &&  stopsList[j].trip_id === newRoute.trainNumber) {
+            const newRoute2 = {...newRoute, destinationTime: stopsList[j].arrival_time};
+            setMoreRoutesList(moreRoutesList => [...moreRoutesList, newRoute2]);
+            break;
+          }
+        }
+      }
+    }
   }
 
   return (
@@ -223,6 +261,18 @@ export default function Home() {
             <div>trainNumber: {route.trainNumber}</div>
             <div>departing {origin.name} at {route.originTime}</div>
             <div>arriving at {destination.name} at {route.destinationTime}</div>
+            {moreRoutesList.length === 0 && <button onClick={handleShowMore}>Show More Trains</button>}
+          </>
+        }
+        {moreRoutesList.length > 0 &&
+          <>
+            <ul>
+              {moreRoutesList.map((route) => 
+              <li key={route.trainNumber}>
+                {route.trainNumber} departing at {route.originTime}, arrving at {route.destinationTime}
+              </li>
+              )}
+            </ul>
           </>
         }
         {route && (!route.trainNumber || !route.destinationTime || !route.originTime) &&
