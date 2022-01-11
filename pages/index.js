@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
-import { set } from 'date-fns';
-import { isWeekend } from 'date-fns';
+import { isWeekend, differenceInMinutes, set } from 'date-fns';
 
 /*
   Next items
@@ -87,7 +86,7 @@ export default function Home() {
           return stopTime.trip_id % 2 === 0 && String(stopTime.trip_id)[0] !== '2';
         }
       }).sort((a, b) => {
-        return a.trip_id - b.trip_id || stopTimeToNum(a.arrival_time) - stopTimeToNum(b.arrival_time);
+        return stopTimeToNum(a.arrival_time) - stopTimeToNum(b.arrival_time);
       })
 
       let southBoundStations = await fetch('./southStations.json')
@@ -124,7 +123,13 @@ export default function Home() {
         // loop to find matching destination
         for (let j = i + 1; j < stops.length; j += 1) {
           if (stops[j].stop_id === destinationStation && departureTime > currentTime && stops[j].trip_id === newRoute.trainNumber) {
-            newRoute = { ...newRoute, destinationTime: stops[j].arrival_time };
+            let arrivalTime = set(currentTime, {
+              hours: parseInt(stopsList[j].arrival_time[0] + stopsList[j].arrival_time[1]),
+              minutes: parseInt(stopsList[j].arrival_time[3] + stopsList[j].arrival_time[4]),
+              seconds: parseInt(stopsList[j].arrival_time[6] + stopsList[j].arrival_time[7])
+            });
+            let routeDuration = differenceInMinutes(arrivalTime, departureTime);
+            newRoute = { ...newRoute, destinationTime: stops[j].arrival_time, duration: routeDuration };
             setRoute(newRoute);
             break;
           }
@@ -154,16 +159,24 @@ export default function Home() {
         minutes: parseInt(stopsList[i].arrival_time[3] + stopsList[i].arrival_time[4]),
         seconds: parseInt(stopsList[i].arrival_time[6] + stopsList[i].arrival_time[7])
       });
-      
+
       if (stopsList[i].stop_id === originStationId && departureTime > routeDepartureTime) {
         const newRoute = {
           trainNumber: stopsList[i].trip_id,
           originTime: stopsList[i].arrival_time,
         };
-        
-        for (let j = i + 1; j < stopsList.length; j +=1) {
-          if (stopsList[j].stop_id === destinationStationId &&  stopsList[j].trip_id === newRoute.trainNumber) {
-            const newRoute2 = {...newRoute, destinationTime: stopsList[j].arrival_time};
+
+        for (let j = i + 1; j < stopsList.length; j += 1) {
+          if (stopsList[j].stop_id === destinationStationId && stopsList[j].trip_id === newRoute.trainNumber) {
+
+            let arrivalTime = set(currentTime, {
+              hours: parseInt(stopsList[j].arrival_time[0] + stopsList[j].arrival_time[1]),
+              minutes: parseInt(stopsList[j].arrival_time[3] + stopsList[j].arrival_time[4]),
+              seconds: parseInt(stopsList[j].arrival_time[6] + stopsList[j].arrival_time[7])
+            });
+            let routeDuration = differenceInMinutes(arrivalTime, departureTime);
+
+            const newRoute2 = { ...newRoute, destinationTime: stopsList[j].arrival_time, duration: routeDuration };
             setMoreRoutesList(moreRoutesList => [...moreRoutesList, newRoute2]);
             break;
           }
@@ -261,18 +274,32 @@ export default function Home() {
             <div>trainNumber: {route.trainNumber}</div>
             <div>departing {origin.name} at {route.originTime}</div>
             <div>arriving at {destination.name} at {route.destinationTime}</div>
+            <div>Trip length is {route.duration} minutes</div>
             {moreRoutesList.length === 0 && <button onClick={handleShowMore}>Show More Trains</button>}
           </>
         }
         {moreRoutesList.length > 0 &&
           <>
-            <ul>
-              {moreRoutesList.map((route) => 
-              <li key={route.trainNumber}>
-                {route.trainNumber} departing at {route.originTime}, arrving at {route.destinationTime}
-              </li>
-              )}
-            </ul>
+            <table>
+              <thead>
+                <tr>
+                  <td>Train Number</td>
+                  <td>{origin.name}</td>
+                  <td>{destination.name}</td>
+                  <td>Duration</td>
+                </tr>
+              </thead>
+              <tbody>
+                {moreRoutesList.map((route) =>
+                  <tr key={route.trainNumber}>
+                    <td>{route.trainNumber}</td>
+                    <td>{route.originTime}</td>
+                    <td>{route.destinationTime}</td>
+                    <td>{route.duration} minutes</td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
           </>
         }
         {route && (!route.trainNumber || !route.destinationTime || !route.originTime) &&
