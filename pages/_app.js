@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
 import { isWeekend, differenceInMinutes, set } from 'date-fns';
-import './styles.css'
+import './styles.css';
 
 /*
   Next items
@@ -195,9 +195,9 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Find your next Caltrain ride
+          Next Caltrain
         </h1>
-        <label>Choose origin:
+        <label className="origin-label">Choose origin:<span> </span>
           <select name="start" onChange={updateOrigin} value={origin ? origin.name : ''}>
             <option value="" disabled>--Select Departing Station--</option>
             <option value="San Francisco Caltrain">SF 4th and King</option>
@@ -233,7 +233,7 @@ export default function Home() {
           </select>
         </label>
 
-        <label>Choose destination:
+        <label>Choose destination:<span> </span>
           <select name="destination" onChange={updateDestination} value={destination ? destination.name : ''}>
             <option value="" disabled>--Select Arriving Station--</option>
             <option value="San Francisco Caltrain">SF 4th and King</option>
@@ -272,9 +272,9 @@ export default function Home() {
 
         {route && route.trainNumber && route.originTime && route.destinationTime &&
           <>
-            <div>trainNumber: {route.trainNumber}</div>
-            <div>departing {origin.name} at {route.originTime}</div>
-            <div>arriving at {destination.name} at {route.destinationTime}</div>
+            <div>Next Train #{route.trainNumber}</div>
+            <div>departing {origin.name.replace(' Caltrain', '')} at {route.originTime.replace(/:00$/, '')}</div>
+            <div>arriving at {destination.name.replace(' Caltrain', '')} at {route.destinationTime.replace(/:00$/, '')}</div>
             <div>Trip length is {route.duration} minutes</div>
             {moreRoutesList.length === 0 && <button onClick={handleShowMore}>Show More Trains</button>}
           </>
@@ -284,19 +284,19 @@ export default function Home() {
             <table>
               <thead>
                 <tr>
-                  <td>Train Number</td>
-                  <td>{origin.name}</td>
-                  <td>{destination.name}</td>
+                  <td>Train</td>
+                  <td>{origin.name.replace(' Caltrain', '')}</td>
+                  <td>{destination.name.replace(' Caltrain', '')}</td>
                   <td>Duration</td>
                 </tr>
               </thead>
               <tbody>
                 {moreRoutesList.map((route) =>
                   <tr key={route.trainNumber}>
-                    <td>{route.trainNumber}</td>
-                    <td>{route.originTime}</td>
-                    <td>{route.destinationTime}</td>
-                    <td>{route.duration} minutes</td>
+                    <td># {route.trainNumber}</td>
+                    <td>{route.originTime.replace(/:00$/, '')}</td>
+                    <td>{route.destinationTime.replace(/:00$/, '')}</td>
+                    <td>{route.duration} min</td>
                   </tr>
                 )}
               </tbody>
@@ -315,3 +315,5 @@ export default function Home() {
     </div>
   )
 }
+
+// credits: <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
