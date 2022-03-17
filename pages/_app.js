@@ -197,78 +197,87 @@ export default function Home() {
         <h1 className="title">
           Next Caltrain
         </h1>
-        <label className="origin-label">Choose origin:<span> </span>
-          <select name="start" onChange={updateOrigin} value={origin ? origin.name : ''}>
-            <option value="" disabled>--Select Departing Station--</option>
-            <option value="San Francisco Caltrain">SF 4th and King</option>
-            <option value="22nd Street Caltrain">SF 22nd</option>
-            <option value="Bayshore Caltrain">Bayshore</option>
-            <option value="South San Francisco Caltrain">South SF</option>
-            <option value="San Bruno Caltrain">San Bruno</option>
-            <option value="Millbrae Caltrain">Millbrae</option>
-            <option value="Broadway Caltrain">Broadway</option>
-            <option value="Burlingame Caltrain">Burlingame</option>
-            <option value="San Mateo Caltrain">San Mateo</option>
-            <option value="Hayward Park Caltrain">Hayward Park</option>
-            <option value="Hillsdale Caltrain">Hillsdale</option>
-            <option value="Belmont Caltrain">Belmont</option>
-            <option value="San Carlos Caltrain">San Carlos</option>
-            <option value="Redwood City Caltrain">Redwood City</option>
-            <option value="Menlo Park Caltrain">Menlo Park</option>
-            <option value="Palo Alto Caltrain">Palo Alto</option>
-            <option value="California Ave Calrain">California Ave</option>
-            <option value="San Antonio Caltrain">San Antonio</option>
-            <option value="Mountain View Caltrain">Mountain View</option>
-            <option value="Sunnyvale Caltrain">Sunnyvale</option>
-            <option value="Lawrence Caltrain">Lawrence</option>
-            <option value="Santa Clara Caltrain">Santa Clara</option>
-            <option value="College Park Caltrain">College Park</option>
-            <option value="San Jose Diridon Caltrain">San Jose Diridon</option>
-            <option value="Tamien Caltrain">Tamien</option>
-            <option value="Capitol Caltrain">Capitol</option>
-            <option value="Blossom Hill Caltrain">Blossom Hill</option>
-            <option value="Morgan Hill Caltrain">Morgan Hill</option>
-            <option value="San Martin Calrain">San Martin</option>
-            <option value="Gilroy Caltrain">Gilroy</option>
-          </select>
-        </label>
+        <div className="navigation-section">
+          <div className="stations-section">
+            <label className="origin-label">Choose origin:<span> </span>
+              <select name="start" onChange={updateOrigin} value={origin ? origin.name : ''}>
+                <option value="" disabled>--Select Departing Station--</option>
+                <option value="San Francisco Caltrain">SF 4th and King</option>
+                <option value="22nd Street Caltrain">SF 22nd</option>
+                <option value="Bayshore Caltrain">Bayshore</option>
+                <option value="South San Francisco Caltrain">South SF</option>
+                <option value="San Bruno Caltrain">San Bruno</option>
+                <option value="Millbrae Caltrain">Millbrae</option>
+                <option value="Broadway Caltrain">Broadway</option>
+                <option value="Burlingame Caltrain">Burlingame</option>
+                <option value="San Mateo Caltrain">San Mateo</option>
+                <option value="Hayward Park Caltrain">Hayward Park</option>
+                <option value="Hillsdale Caltrain">Hillsdale</option>
+                <option value="Belmont Caltrain">Belmont</option>
+                <option value="San Carlos Caltrain">San Carlos</option>
+                <option value="Redwood City Caltrain">Redwood City</option>
+                <option value="Menlo Park Caltrain">Menlo Park</option>
+                <option value="Palo Alto Caltrain">Palo Alto</option>
+                <option value="California Ave Calrain">California Ave</option>
+                <option value="San Antonio Caltrain">San Antonio</option>
+                <option value="Mountain View Caltrain">Mountain View</option>
+                <option value="Sunnyvale Caltrain">Sunnyvale</option>
+                <option value="Lawrence Caltrain">Lawrence</option>
+                <option value="Santa Clara Caltrain">Santa Clara</option>
+                <option value="College Park Caltrain">College Park</option>
+                <option value="San Jose Diridon Caltrain">San Jose Diridon</option>
+                <option value="Tamien Caltrain">Tamien</option>
+                <option value="Capitol Caltrain">Capitol</option>
+                <option value="Blossom Hill Caltrain">Blossom Hill</option>
+                <option value="Morgan Hill Caltrain">Morgan Hill</option>
+                <option value="San Martin Calrain">San Martin</option>
+                <option value="Gilroy Caltrain">Gilroy</option>
+              </select>
+            </label>
 
-        <label>Choose destination:<span> </span>
-          <select name="destination" onChange={updateDestination} value={destination ? destination.name : ''}>
-            <option value="" disabled>--Select Arriving Station--</option>
-            <option value="San Francisco Caltrain">SF 4th and King</option>
-            <option value="22nd Street Caltrain">SF 22nd</option>
-            <option value="Bayshore Caltrain">Bayshore</option>
-            <option value="South San Francisco Caltrain">South SF</option>
-            <option value="San Bruno Caltrain">San Bruno</option>
-            <option value="Millbrae Caltrain">Millbrae</option>
-            <option value="Broadway Caltrain">Broadway</option>
-            <option value="Burlingame Caltrain">Burlingame</option>
-            <option value="San Mateo Caltrain">San Mateo</option>
-            <option value="Hayward Park Caltrain">Hayward Park</option>
-            <option value="Hillsdale Caltrain">Hillsdale</option>
-            <option value="Belmont Caltrain">Belmont</option>
-            <option value="San Carlos Caltrain">San Carlos</option>
-            <option value="Redwood City Caltrain">Redwood City</option>
-            <option value="Menlo Park Caltrain">Menlo Park</option>
-            <option value="Palo Alto Caltrain">Palo Alto</option>
-            <option value="California Ave Calrain">California Ave</option>
-            <option value="San Antonio Caltrain">San Antonio</option>
-            <option value="Mountain View Caltrain">Mountain View</option>
-            <option value="Sunnyvale Caltrain">Sunnyvale</option>
-            <option value="Lawrence Caltrain">Lawrence</option>
-            <option value="Santa Clara Caltrain">Santa Clara</option>
-            <option value="College Park Caltrain">College Park</option>
-            <option value="San Jose Diridon Caltrain">San Jose Diridon</option>
-            <option value="Tamien Caltrain">Tamien</option>
-            <option value="Capitol Caltrain">Capitol</option>
-            <option value="Blossom Hill Caltrain">Blossom Hill</option>
-            <option value="Morgan Hill Caltrain">Morgan Hill</option>
-            <option value="San Martin Calrain">San Martin</option>
-            <option value="Gilroy Caltrain">Gilroy</option>
-          </select>
-        </label>
-        {origin && destination && <button onClick={changeDirection}>Switch Direction</button>}
+            <label>Choose destination:<span> </span>
+
+
+            <select name="destination" onChange={updateDestination} value={destination ? destination.name : ''}>
+              <option value="" disabled>--Select Arriving Station--</option>
+              <option value="San Francisco Caltrain">SF 4th and King</option>
+              <option value="22nd Street Caltrain">SF 22nd</option>
+              <option value="Bayshore Caltrain">Bayshore</option>
+              <option value="South San Francisco Caltrain">South SF</option>
+              <option value="San Bruno Caltrain">San Bruno</option>
+              <option value="Millbrae Caltrain">Millbrae</option>
+              <option value="Broadway Caltrain">Broadway</option>
+              <option value="Burlingame Caltrain">Burlingame</option>
+              <option value="San Mateo Caltrain">San Mateo</option>
+              <option value="Hayward Park Caltrain">Hayward Park</option>
+              <option value="Hillsdale Caltrain">Hillsdale</option>
+              <option value="Belmont Caltrain">Belmont</option>
+              <option value="San Carlos Caltrain">San Carlos</option>
+              <option value="Redwood City Caltrain">Redwood City</option>
+              <option value="Menlo Park Caltrain">Menlo Park</option>
+              <option value="Palo Alto Caltrain">Palo Alto</option>
+              <option value="California Ave Calrain">California Ave</option>
+              <option value="San Antonio Caltrain">San Antonio</option>
+              <option value="Mountain View Caltrain">Mountain View</option>
+              <option value="Sunnyvale Caltrain">Sunnyvale</option>
+              <option value="Lawrence Caltrain">Lawrence</option>
+              <option value="Santa Clara Caltrain">Santa Clara</option>
+              <option value="College Park Caltrain">College Park</option>
+              <option value="San Jose Diridon Caltrain">San Jose Diridon</option>
+              <option value="Tamien Caltrain">Tamien</option>
+              <option value="Capitol Caltrain">Capitol</option>
+              <option value="Blossom Hill Caltrain">Blossom Hill</option>
+              <option value="Morgan Hill Caltrain">Morgan Hill</option>
+              <option value="San Martin Calrain">San Martin</option>
+              <option value="Gilroy Caltrain">Gilroy</option>
+            </select>
+            </label>
+          </div>
+          {/* todo: change text to image, add description of what imsage does */}
+          {origin && destination && <button className="direction-switcher" aria-label="switch direction" onClick={changeDirection}>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z"/></svg>
+          </button>}
+        </div>
 
         {route && route.trainNumber && route.originTime && route.destinationTime &&
           <>
