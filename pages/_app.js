@@ -281,11 +281,13 @@ export default function Home() {
 
         {route && route.trainNumber && route.originTime && route.destinationTime &&
           <>
-            <div>Next Train #{route.trainNumber}</div>
-            <div>departing {origin.name.replace(' Caltrain', '')} at {route.originTime.replace(/:00$/, '')}</div>
-            <div>arriving at {destination.name.replace(' Caltrain', '')} at {route.destinationTime.replace(/:00$/, '')}</div>
-            <div>Trip length is {route.duration} minutes</div>
-            {moreRoutesList.length === 0 && <button onClick={handleShowMore}>Show More Trains</button>}
+            <div className="next-train-section">
+              <div>Next Train #{route.trainNumber}</div>
+              <div>Departing <b>{origin.name.replace(' Caltrain', '')}</b> at <b>{route.originTime.replace(/:00$/, '')}</b></div>
+              <div>Arriving <b>{destination.name.replace(' Caltrain', '')}</b> at <b>{route.destinationTime.replace(/:00$/, '')}</b></div>
+              <div>Trip length is {route.duration} minutes</div>
+              {moreRoutesList.length === 0 && <button className="show-more-trains-btn" onClick={handleShowMore}>Show More Trains</button>}
+            </div>
           </>
         }
         {moreRoutesList.length > 0 &&
