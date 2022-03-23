@@ -1,7 +1,9 @@
 :root {
   --red: #db1e29;
+  --red-hover: #a1050d;
   --light-gray: #eeeeee;
   --dark-gray: #313131;
+  --focus-blue: #030a8a;
 }
 
 html,
@@ -61,6 +63,14 @@ body {
     background-color: white;
   }
   
+  button:hover {
+    cursor: pointer;
+  }
+
+  button:focus {
+    border: 2px solid var(--focus-blue);
+  }
+
   .title {
     margin: 0;
     font-size: 4rem;
@@ -116,14 +126,36 @@ label {
   font-size: 20px;
 }
 
+.show-more-trains-btn:hover {
+  background-color: var(--red-hover);
+}
 
+.show-more-trains-btn:focus {
+  background-color: var(--red-hover);
+}
+
+table {
+  width: 100%;
+  border: 1px solid var(--dark-gray);
+  border-radius: 3px;
+}
+
+.timetable {
+  margin-top: 24px;
+}
+
+thead {
+  font-weight: bold;
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: var(--light-gray);
+}
 /*
-Heading: white text, Caltrain red background
-background-image: linear-gradient(#e3848a, #db1e29)
-origin/destination: add border around elements
-add a border to the departure information container
-put the train times in bold
-add a border to the more trains table
-headers should be bold
+Next items:
+1. Remove show more button and show the rest of the .show-more-trains-btn
+2. Left align the station selector, next train section, timetable
+3. Show duration from departure time
 
 */

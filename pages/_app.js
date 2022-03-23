@@ -273,10 +273,9 @@ export default function Home() {
             </select>
             </label>
           </div>
-          {/* todo: change text to image, add description of what imsage does */}
-          {origin && destination && <button className="direction-switcher" aria-label="switch direction" onClick={changeDirection}>
+          <button className="direction-switcher" aria-label="switch direction" onClick={changeDirection}>
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z"/></svg>
-          </button>}
+          </button>
         </div>
 
         {route && route.trainNumber && route.originTime && route.destinationTime &&
@@ -285,14 +284,14 @@ export default function Home() {
               <div>Next Train #{route.trainNumber}</div>
               <div>Departing <b>{origin.name.replace(' Caltrain', '')}</b> at <b>{route.originTime.replace(/:00$/, '')}</b></div>
               <div>Arriving <b>{destination.name.replace(' Caltrain', '')}</b> at <b>{route.destinationTime.replace(/:00$/, '')}</b></div>
-              <div>Trip length is {route.duration} minutes</div>
+              <div>Trip duration: {route.duration} min</div>
               {moreRoutesList.length === 0 && <button className="show-more-trains-btn" onClick={handleShowMore}>Show More Trains</button>}
             </div>
           </>
         }
         {moreRoutesList.length > 0 &&
           <>
-            <table>
+            <table className="timetable">
               <thead>
                 <tr>
                   <td>Train</td>
