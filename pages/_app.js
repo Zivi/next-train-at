@@ -291,6 +291,7 @@ export default function Home() {
         }
         {moreRoutesList.length > 0 &&
           <>
+            <h2>Later Trains</h2>
             <table className="timetable">
               <thead>
                 <tr>
@@ -303,7 +304,7 @@ export default function Home() {
               <tbody>
                 {moreRoutesList.map((route) =>
                   <tr key={route.trainNumber}>
-                    <td># {route.trainNumber}</td>
+                    <td className="train-number"># {route.trainNumber}</td>
                     <td>{route.originTime.replace(/:00$/, '')}</td>
                     <td>{route.destinationTime.replace(/:00$/, '')}</td>
                     <td>{route.duration} min</td>
