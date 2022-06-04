@@ -116,9 +116,11 @@ export default function Home() {
         seconds: parseInt(stops[i].arrival_time[6] + stops[i].arrival_time[7])
       });
       if (stops[i].stop_id === originStation && departureTime > currentTime) {
+        let remainingTime = differenceInMinutes(departureTime, currentTime);
         newRoute = {
           trainNumber: stops[i].trip_id,
-          originTime: stops[i].arrival_time
+          originTime: stops[i].arrival_time,
+          remainingTime: remainingTime
         }
 
         // loop to find matching destination
@@ -282,7 +284,7 @@ export default function Home() {
           <>
             <div className="next-train-section">
               <div>Next Train #{route.trainNumber}</div>
-              <div>Departing <b>{origin.name.replace(' Caltrain', '')}</b> at <b>{route.originTime.replace(/:00$/, '')}</b></div>
+              <div>Departing <b>{origin.name.replace(' Caltrain', '')}</b> at <b>{route.originTime.replace(/:00$/, '')}</b> in <b>{route.remainingTime} minutes</b></div>
               <div>Arriving <b>{destination.name.replace(' Caltrain', '')}</b> at <b>{route.destinationTime.replace(/:00$/, '')}</b></div>
               <div>Trip duration: {route.duration} min</div>
               {moreRoutesList.length === 0 && <button className="show-more-trains-btn" onClick={handleShowMore}>Show More Trains</button>}
