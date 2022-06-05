@@ -81,12 +81,12 @@ button:focus {
 
 label {
   padding-bottom: 5px;
-  width: 100%;
 }
 
 .stations-section {
   display: inline-flex;
   flex-direction: column;
+  width: 300px;
 }
 
 .navigation-section {
@@ -97,6 +97,11 @@ label {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.station-select {
+  float: right;
+  width: 200px;
 }
 
 .direction-switcher {

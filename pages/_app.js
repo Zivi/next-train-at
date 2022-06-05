@@ -201,9 +201,9 @@ export default function Home() {
         </h1>
         <div className="navigation-section">
           <div className="stations-section">
-            <label className="origin-label">Choose origin:<span> </span>
-              <select name="start" onChange={updateOrigin} value={origin ? origin.name : ''}>
-                <option value="" disabled>--Select Departing Station--</option>
+            <label className="origin-label">Origin:<span> </span>
+              <select className="station-select" name="start" onChange={updateOrigin} value={origin ? origin.name : ''}>
+                <option value="" disabled>--Departing Station--</option>
                 <option value="San Francisco Caltrain">SF 4th and King</option>
                 <option value="22nd Street Caltrain">SF 22nd</option>
                 <option value="Bayshore Caltrain">Bayshore</option>
@@ -237,11 +237,11 @@ export default function Home() {
               </select>
             </label>
 
-            <label>Choose destination:<span> </span>
+            <label>Destination:<span> </span>
 
 
-            <select name="destination" onChange={updateDestination} value={destination ? destination.name : ''}>
-              <option value="" disabled>--Select Arriving Station--</option>
+            <select className="station-select" name="destination" onChange={updateDestination} value={destination ? destination.name : ''}>
+              <option value="" disabled>--Arriving Station--</option>
               <option value="San Francisco Caltrain">SF 4th and King</option>
               <option value="22nd Street Caltrain">SF 22nd</option>
               <option value="Bayshore Caltrain">Bayshore</option>
@@ -323,10 +323,10 @@ export default function Home() {
         }
       </main>
       <footer>
-        <div>Made with by 🚂 Zivi Weinstock</div>
+        <div>Made with 🚂 by Zivi Weinstock</div>
       </footer>
     </div>
   )
 }
 
-// credits: <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+// credits: <a href="http://www.onlinewebfonts.com">online Web Fonts</a>
