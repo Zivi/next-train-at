@@ -107,6 +107,7 @@ export default function Home() {
 
   function parseRoute(stops, originStation, destinationStation) {
     const currentTime = new Date();
+    setRoute(null);
     let newRoute = {};
 
     for (let i = 0; i < stops.length; i += 1) {
@@ -316,7 +317,7 @@ export default function Home() {
             </table>
           </>
         }
-        {route && (!route.trainNumber || !route.destinationTime || !route.originTime) &&
+        {!route && (origin && destination) &&
           <>
             <div>No trains match your request</div>
           </>
