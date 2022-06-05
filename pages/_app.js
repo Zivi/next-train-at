@@ -237,7 +237,7 @@ export default function Home() {
               </select>
             </label>
 
-            <label>Destination:<span> </span>
+            <label className="destination-label">Destination:<span> </span>
 
 
             <select className="station-select" name="destination" onChange={updateDestination} value={destination ? destination.name : ''}>
@@ -324,7 +324,7 @@ export default function Home() {
       </main>
       <footer>
         <div>
-          Made with 🚂 by &nbsp
+          Made with 🚂 by &nbsp;
           <a href="https://github.com/Zivi/next-train-at" target="_blank" rel="noopener noreferrer">
             Zivi Weinstock
           </a>

@@ -64,8 +64,8 @@ button:focus {
   text-align: center;
 }
 
-label {
-  padding-bottom: 5px;
+.origin-label {
+  padding-bottom: 8px;
 }
 
 .stations-section {
