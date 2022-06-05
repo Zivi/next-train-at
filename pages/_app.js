@@ -323,7 +323,12 @@ export default function Home() {
         }
       </main>
       <footer>
-        <div>Made with 🚂 by Zivi Weinstock</div>
+        <div>
+          Made with 🚂 by &nbsp
+          <a href="https://github.com/Zivi/next-train-at" target="_blank" rel="noopener noreferrer">
+            Zivi Weinstock
+          </a>
+        </div>
       </footer>
     </div>
   )
