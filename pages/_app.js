@@ -3,19 +3,13 @@ import React, { useEffect, useState } from 'react';
 import { isWeekend, differenceInMinutes, set } from 'date-fns';
 import './styles.css';
 
-/*
-  Next items
-  2. CSS enhancements
-  3. Unit tests
-
-*/
 let stopsList = [];
 let originStationId = null;
 let destinationStationId = null;
 
 export default function Home() {
-  const [origin, setOrigin] = useState(null);
-  const [destination, setDestination] = useState(null);
+  const [origin, setOrigin] = useState('');
+  const [destination, setDestination] = useState('');
   const [route, setRoute] = useState(null);
   const [moreRoutesList, setMoreRoutesList] = useState([]);
 
